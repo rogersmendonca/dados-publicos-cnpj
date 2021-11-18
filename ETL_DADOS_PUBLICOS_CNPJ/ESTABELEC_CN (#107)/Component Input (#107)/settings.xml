@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTABELEC_CNAE_SECUNDARIA_LOG_FILE_PATH"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="LOCAL"/>
+            <entry key="path" type="xstring" value="L:\cnpj_log\20211117003950_ESTABELEC_CNAE_SECUNDARIA.csv"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="ESTABELEC_CNAE_SECUNDARIA_LOG_FILE_PATH"/>
+            <entry key="class" type="xstring" value="FSLocation"/>
+            <entry key="location_present" type="xboolean" value="true"/>
+            <entry key="file_system_type" type="xstring" value="LOCAL"/>
+            <entry key="path" type="xstring" value="L:\cnpj_log\20211117003950_ESTABELEC_CNAE_SECUNDARIA.csv"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="ESTABELEC_CNAE_SECUNDARIA_LOG_FILE_PATH"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="23"/>
+                <entry key="0" type="xstring" value="Path"/>
+                <entry key="1" type="xstring" value="FileName"/>
+                <entry key="2" type="xstring" value="RowID"/>
+                <entry key="3" type="xstring" value="currentIteration"/>
+                <entry key="4" type="xstring" value="maxIterations"/>
+                <entry key="5" type="xstring" value="DIR_ZIP_PATH"/>
+                <entry key="6" type="xstring" value="DIR_UNZIP_PATH"/>
+                <entry key="7" type="xstring" value="DIR_LOG_PATH"/>
+                <entry key="8" type="xstring" value="AUXILIAR_LOG_FILE_PATH"/>
+                <entry key="9" type="xstring" value="EMPRESA_LOG_FILE_PATH"/>
+                <entry key="10" type="xstring" value="ESTABELECIMENTO_LOG_FILE_PATH"/>
+                <entry key="11" type="xstring" value="SIMPLES_LOG_FILE_PATH"/>
+                <entry key="12" type="xstring" value="SOCIO_LOG_FILE_PATH"/>
+                <entry key="13" type="xstring" value="ESTABELEC_CNAE_SECUNDARIA_LOG_FILE"/>
+                <entry key="14" type="xstring" value="SOCIO_LOG_FILE"/>
+                <entry key="15" type="xstring" value="SIMPLES_LOG_FILE"/>
+                <entry key="16" type="xstring" value="ESTABELECIMENTO_LOG_FILE"/>
+                <entry key="17" type="xstring" value="EMPRESA_LOG_FILE"/>
+                <entry key="18" type="xstring" value="AUXILIAR_LOG_FILE"/>
+                <entry key="19" type="xstring" value="FLAG_UNZIP"/>
+                <entry key="20" type="xstring" value="DIR_LOG"/>
+                <entry key="21" type="xstring" value="DIR_UNZIP"/>
+                <entry key="22" type="xstring" value="DIR_ZIP"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="Port 1"/>
+            <entry key="1" type="xstring" value="Port 2"/>
+            <entry key="2" type="xstring" value="Port 3"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value=""/>
+            <entry key="1" type="xstring" value=""/>
+            <entry key="2" type="xstring" value=""/>
+        </config>
+        <entry key="sub-node-description" type="xstring" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="isDeletable" type="xboolean" value="false"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.0.v202106241953"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.0.v202106241953"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+            </config>
+        </config>
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Input"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
